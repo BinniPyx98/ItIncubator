@@ -1,0 +1,150 @@
+/*---------button----------*/
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.btn {
+    font-size: 14px;
+    background-color: #77b16e;
+    border-color: #222;
+    border: 1px solid transparent;
+    display: block;
+    max-width: 134px;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.blue_btn {
+    font-size: 14px;
+    background-color: #4487FB;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.blue_btn:hover {
+    background-color: #1b69f0;
+}
+
+/*------------------------------------------*/
+
+/*---------------main tags------------------*/
+
+body {
+    font-size: 14px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/*-----------------------------------*/
+
+/*---------Мои классы----------------*/
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.right_side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.mnu {
+    list-style-type: none;
+}
+
+.main_search {
+    max-width: 570px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.field {
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #FF0000;
+    align-items: center;
+    display: flex;
+    margin: 10px 0 30px;
+}
+
+footer {
+    color: #70757a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.line {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+
+.line_first {
+    align-items: center;
+    margin-right: 10px;
+    padding-left: 8px;
+    background-color: #f2f2f2;
+    height: 40px;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+}
+
+.mnu_footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fot2 {
+    margin-right: 20px;
+    padding-left: 0px;
+}
+
+.inputSuperSum1 {
+    border: 1px solid;
+    border-radius: 30px;
+    margin-right: 15px;
+}
